@@ -28,11 +28,11 @@ function router(req,res){
                 res.end();
         }
 
-        res.writeHead(201,{'Content-Type':'text/plain'})
+        // res.writeHead(201,{'Content-Type':'text/plain'})
     
-        //ESCRIBIR RESPUESTA AL USUARIO
-        res.write('Hola , ya se usar HTTP DE NODEJS');
-        res.end();
+        // //ESCRIBIR RESPUESTA AL USUARIO
+        // res.write('Hola , ya se usar HTTP DE NODEJS');
+        // res.end();
 }
 
 
