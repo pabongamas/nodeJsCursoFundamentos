@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "is-odd": "^3.0.1"
+    "is-odd": "^3.0.1",
+    "puppeteer": "^20.8.0"
   }
 }

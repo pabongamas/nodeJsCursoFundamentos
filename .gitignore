@@ -1,0 +1,6 @@
+# Comentarios: comienzan con el símbolo #
+# Ignorar archivos específicos
+herramientas/electron/node_modules/
+# Ignorar archivos con ciertos patrones
+*.log
+temp-*

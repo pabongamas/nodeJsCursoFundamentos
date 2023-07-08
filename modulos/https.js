@@ -20,6 +20,12 @@ function router(req,res){
         
         switch(req.url){
             case '/hola':
+                //esto es de lca clase de debugger 
+
+                let saludo =hola();
+                res.write(saludo);
+
+                //
                 res.write('Hola que tal');
                 res.end();
                 break;
@@ -35,6 +41,8 @@ function router(req,res){
         // res.end();
 }
 
-
+function hola(){
+    return "Hola que tal por funcion";
+}
 
 console.log("Escuchando http en el puerto 3000");
